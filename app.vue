@@ -3,8 +3,8 @@
     <Header />
     <div>
       <!-- Form to log in and out -->
-      <button @click="signIn" class="rounded px-4 py-2 text-white  hover:ring-2 m-2 rounded bg-blue-600">Sign In</button>
-      <button @click="signOut" class="rounded px-4 py-2 text-white  hover:ring-2 m-2 rounded bg-blue-600">Sign Out</button>
+      <button @click="signIn" class="rounded px-4 py-2 text-white  hover:ring-2 m-2 rounded bg-black-600">Sign In</button>
+      <button @click="signOut" class="rounded px-4 py-2 text-white  hover:ring-2 m-2 rounded bg-black-600">Sign Out</button>
     </div>
     <pre>
       {{ credentials }}
